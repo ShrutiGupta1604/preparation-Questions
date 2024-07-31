@@ -1,0 +1,29 @@
+1) What's the output? const obj = { 1: 'a', 2: 'b', 3: 'c' }; const set = new Set([1, 2, 3, 4, 5]); obj.hasOwnProperty('1'); obj.hasOwnProperty(1); set.has('1'); set.has(1);
+2) What's the output? const obj = { a: 'one', b: 'two', a: 'three' }; console.log(obj);
+3) The JavaScript global execution context creates two things for you: the global object, and the "this" keyword.
+4) What's the output? for (let i = 1; i < 5; i++) { if (i === 3) continue; console.log(i); }
+5) What's the output? String.prototype.giveLydiaPizza = () => { return 'Just give Lydia pizza already!'; }; const name = 'Lydia'; console.log(name.giveLydiaPizza())
+6) What's the output? const a = {}; const b = { key: 'b' }; const c = { key: 'c' }; a[b] = 123; a[c] = 456; console.log(a[b]);
+7) What's the output? const foo = () => console.log('First'); const bar = () => setTimeout(() => console.log('Second')); const baz = () => console.log('Third'); bar(); foo(); baz();
+8) What is the event.target when clicking the button? <div onclick="console.log('first div')"> <div onclick="console.log('second div')"> <button onclick="console.log('button')"> Click! </button> </div> </div>
+9) When you click the paragraph, what's the logged output? <div onclick="console.log('div')"> <p onclick="console.log('p')"> Click here! </p> </div>
+10) What's the output? const person = { name: 'Lydia' }; function sayHi(age) { return `${this.name} is ${age}`; } console.log(sayHi.call(person, 21)); console.log(sayHi.bind(person, 21));
+11) Write a JavaScript function to check if a given number is prime
+12) Implement a deep clone function in JavaScript that creates a copy of a nested object or array without any reference to the original
+
+
+///22/07/2024 Uraan Daily test #5 
+1) Which of the following values are primitives?
+2) A primitive value has properties and methods on it. True or false?
+3) document is a primitive value. True or false?
+4) Which one of the following is a floating-point number?
+5) JavaScript has separate data types for integers and floats. True or false?
+6) What does the following code log? var s = 'Hello'; console.log(s[1]);
+7) How to retrieve the total number of characters of a string s?
+8) Which of the following denotes a Boolean in JavaScript?
+9) In the code below, what is the value stored in the variable a called? var a = [1, 2, 3];
+10) Which of the following represents array literals?
+11) Write a JavaScript conditional statement to find the sign of the product of three numbers. Display an alert box with the specified sign.
+
+
+ 

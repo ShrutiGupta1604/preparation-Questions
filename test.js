@@ -1,10 +1,211 @@
 // // *************************-Uraan Daily test-*******************************
 
+// Uraan Daily test #11
+
+
+
+//____________________________________________________________________________________________________________________
+ 
 // // ----------------------------------------------------------------
 
-// Uraan Daily test #10 
+// Uraan Daily test #10  
 
+// Q1 Null is a valid data type in Javascript: Select True or False.
+ 
+// A. True 
+// B. False
 
+// Feedback
+// Answer: A
+// Null is a primitive data type in JavaScript. It is used to represent an empty value. The variable which has been assigned as null contains no value.
+
+// //----------------------------------------------------------------------
+
+// Q2 What will be the console output of the below JS code: 
+
+// let a; 
+// console.log(a);
+
+// A. Null
+// B. Undefined 
+// C. 0
+// D: 1
+
+// Feedback
+// Answer: B
+// Here, no value has been assigned to 'a', therefore it is undefined.
+
+// //------------------------------------------------------------
+ 
+// Q3 Which of the following is NOT a valid data type in JS?
+ 
+// A. Symbol
+// B. Void
+// C. Object
+// D. Undefined
+
+// Feedback
+// Answer: B
+// 'Void' is not a data type in JS. Valid data types in JS are:
+// 1. String
+// 2. Number
+// 3. Bigint
+// 4. Boolean
+// 5. Undefined
+// 6. Null
+// 7. Symbol
+// 8. Object
+
+// //-------------------------------------------------------------
+ 
+// Q4 What will be the console output of the below JS code? 
+
+// let a=null; 
+// console.log(a);
+ 
+// A. undefined
+// B. Uncaught Reference Error
+// C. 0
+// D. null
+ 
+// Feedback
+// Answer: D
+// 'null' will be printed on the console because the variable 'a' is initialized with a null value which means 'a' is empty.
+
+// //--------------------------------------------------------
+
+// Q5 What will be the console output of the below JS code? 
+
+// let a=hello; 
+// console.log(a);
+ 
+// A. Uncaught ReferenceError: hello is not defined 
+// B. undefined
+// C. null
+// D. hello
+
+// Feedback
+// Answer: A
+// The word 'hello' cannot be resolved to any data type. Therefore, there will be an 'Uncaught ReferenceError: Hello is not defined' on the console.
+
+// //-----------------------------------------
+
+// Q6 What will be the console output of the below JS code? 
+
+// let a="hello";
+// console.log(a);
+ 
+// A. undefined
+// B. null
+// C. hello
+// D. Uncaught ReferenceError: hello is not defined
+
+// Feedback
+// Answer: C
+// Here, the word 'hello' (written inside double quotes) is resolved as a string data type. Therefore, 'hello' will be printed on the console output.
+
+// //----------------------------------------------
+
+// Q7 What will be the console output of the below JS code? 
+
+// let a ="8"+"8"; 
+// console.log(a);
+
+// A. NaN
+// B. 88 
+// C. 16
+// D. Uncaught Reference Error
+
+// Feedback
+// Answer: B
+// Both the eights written inside double quotes will be treated as strings, and the plus operator will concatenate these two strings. Therefore, the console output will be 88.
+
+// //-------------------------------------------
+
+// Q8 Identify whether the below Javascript code is a valid or an invalid code: 
+
+// let a=[34,"hello",false, 4599];
+ 
+// A. Valid 
+// B. Invalid
+
+// Feedback
+// Answer: A
+// The given javascript code is a valid statement. The array in Javascript can contain mixed (different) data types.
+
+// //-------------------------------------------
+
+// Q9 What will be the console output of the below JS code? 
+
+// let a="8"/8; 
+// console.log(a);
+ 
+// A. NaN
+// B. undefined
+// C. 1 
+// D. Uncaught Reference Error
+
+// Feedback
+// Answer: C 
+
+// //--------------------------------------------------------
+ 
+// Q10 The below JS code is an ______ 
+
+// let a = {name:"Sarah", age:24, address: "7 north block"}
+
+// A. Array
+// B. Symbol
+// C. Object
+// D. None of the above
+
+// Feedback
+// Answer: C 
+
+// //------------------------------------------
+
+// Q11 Write a Program to print the shown pattern
+ 
+// 1
+// 12
+// 123
+// 1234
+// 12345
+// 123456
+
+//     let n = 6
+//     let result = '';
+//         for (let i = 1; i <= n; i++) { 
+//             for(let j=1; j<=i; j++){
+//                 result = result + j;   
+//             } 
+//             result = result + "\n";
+             
+//             }
+//     console.log(result)
+    
+// //----------------------------------
+   
+// Q12 Write a Program to print the shown pattern
+
+// 123456
+// 12345
+// 1234
+// 123
+// 12
+// 1
+//     let n = 6
+//     let result = '';
+//         for (let i = n; i >= 1; i--) { 
+//             for(let j=1; j<=i; j++){
+//                 result = result + j;   
+//             } 
+//             result = result + "\n";
+             
+//             }
+//     console.log(result)
+
+//-------------------------------------------------------------------
 
 //____________________________________________________________________________________________________________________
  

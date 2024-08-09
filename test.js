@@ -1,8 +1,372 @@
 // // *************************-Uraan Daily test-*******************************
 
+
+//____________________________________________________________________________________________________________________
+ 
+// // ----------------------------------------------------------------
+ 
+// // Uraan Daily test #15
+
+
+
+//____________________________________________________________________________________________________________________
+ 
+// // ----------------------------------------------------------------
+ 
+// // Uraan Daily test #14
+
+// Q1 Create a widget that renders the current time in HH:MM:SS format using a 7 - segment digital display.
+// You are free to choose to use 12 - hour or a 24 - hour display.
+
+// Here's an example of a digital clock. Each digit needs to be rendered by individual segments, 
+// but you can exercise your creativity by choosing different colors and styling it differently. 
+// It should however still function as a clock, allowing the user to read the time.
+
+
+// Ans.
+
+// import React, { useState } from 'react';
+// function Digitalclock() {
+//     let currentTime = new Date().toLocaleTimeString();
+//     const[clocktime, setClocktime] = useState(currentTime )
+//     const Updatetime = () => {
+
+//         let time = new  Date().toLocaleTimeString();
+//         setClocktime(time)
+
+//     }
+//     setInterval(Updatetime,1000)
+//     return(
+//         <div>
+//             <h1>Digitalclock</h1>
+//             <h2>{clocktime}</h2>
+//         </div>
+//     )
+// }
+
+//____________________________________________________________________________________________________________________
+ 
+// // ----------------------------------------------------------------
+ 
+// // Uraan Daily test #13
+ 
+
+//____________________________________________________________________________________________________________________
+ 
+// // ----------------------------------------------------------------
+ 
+// // Uraan Daily test #12
+ 
+// Q1 What is the purpose of JSX in React?
+ 
+// A. To improve the performance of the virtual DOM
+// B. To handle browser events in a more efficient way
+// C. To make it easier to work with state and props
+// D. To provide a way to write HTML elements in JavaScript
+
+// Correct answer
+// D. To provide a way to write HTML elements in JavaScript
+
+// //---------------------------------------------------------------
+ 
+// Q2 What is the purpose of React state?
+ 
+// A. To store static data
+// B. To store styles
+// C. To store dynamic data 
+// D. To store function
+
+// Correct answer
+// C. To store dynamic data 
+
+// //----------------------------------------------------------
+
+// Q3 What is the use of React hooks?
+
+// A. To manage state and side effects in functional components
+// B. To manage styles in functional components
+// C. To manage state and side effects in class components 
+// D. To manage styles in class components
+
+// Correct answer
+// A. To manage state and side effects in functional components
+
+// //----------------------------------------------------------------
+
+// Q4 What is the purpose of useEffect hook in React?
+
+// A. To add event listeners
+// B. To perform side effects 
+// C. To render components
+// D. To manage state
+
+// Correct answer
+// D. To manage state
+
+// //----------------------------------------------------------------------
+
+// Q5 What is the purpose of useState hook in React?
+
+// A. To manage state in functional components 
+// B. To manage side effects in functional components
+// C. To manage state in class components
+// D. To manage side effects in class components
+
+// Correct answer
+// A. To manage state in functional components
+
+// //---------------------------------------------------------------
+
+// Q6 What is React component
+
+// A. HTML document
+// B. A HTML element
+// C. A CSS stylesheet
+// D. A JavaScript function
+
+// Correct answer
+// D. A JavaScript function
+ 
+// //------------------------------------------------------------------
+
+// Q7 How does React handle updates to the component state?
+
+// A. By updating the whole component
+// B. By updating specific parts of the component
+// C. By adding a new component
+// D. By removing the component
+
+// //----------------------------------------------------------------------
+
+// Q8 What is the purpose of setState in React?
+
+// A. To set the component event listeners
+// B. To set the component props 
+// C. To set the component state
+// D. To set the component styles
+
+// Correct answer
+// C. To set the component state
+
+// //---------------------------------------------------------------------
+
+// Q9 What is the purpose of props in React?
+
+// A. To pass styles to the component
+// B. To pass data from parent to child component 
+// C. To pass data from child to parent component
+// D. To pass data within the same component
+
+// Correct answer
+// B. To pass data from parent to child component
+
+// //-----------------------------------------------------------------
+
+// Q10 What is the difference between state and props in React?
+
+// A. Props are mutable, state is immutable
+// B. Both state and props are mutable
+// C. Both state and props are immutable
+// D. State is mutable, props are immutable
+
+// Correct answer
+// D. State is mutable, props are immutable
+
+// //--------------------------------------------------------------------------
+
+// Q11 What is equivalent to the following using React.createElement
+
+// const element = (
+//      <h1 className="Hello">
+//           Hello world!
+//      </h1>
+// );
+
+// element = React.createElement("h1', {className: 'Hello'}' 
+// 'Hello world !'
+// )
+
+// //--------------------------------------------------------
+
+// Q12 Please explain what three dots (...) do in react, explain with an example. 
+
+// Ans. tree dots(...) stands for spread oprator . it is used to  spread the element of an array and expands an iterable into multiplevalue.
+
+// //---------------------------------------------------------------------------------------------------------
+ 
+//____________________________________________________________________________________________________________________
+ 
+// // ----------------------------------------------------------------
+
 // Uraan Daily test #11
 
 
+// Q1 What describes the ReactJS? *
+
+// A. Server Side Framework
+// B. Client Side Framework
+// C. Both A & B
+// D. None of these
+
+// Correct answer
+// B. Client Side Framework
+
+// //--------------------------------------------------------
+
+// Q2 ReactJS written in which language? *
+
+// A. Java
+// B. PHP
+// C. Javascript
+// D. None of these
+
+// Correct answer
+// C. Javascript
+
+// //---------------------------------------------------------------------
+
+// Q3 What will be the output of the following code?* 
+
+// import React, { Component } from 'react';
+
+// const App = () => {
+//      return (
+//           <div>
+//                <h1 className="hello" > (25+20) </h1> }
+//           </div>);
+// }
+// export default App;
+
+// A. 25
+// B. 45
+// C. 35
+// D. None of these
+
+// Correct answer 
+// D. None of these
+
+// //-----------------------------------------
+
+// Q4 Why JSX used for? 
+
+// A. To write HTML in React
+// B. To write jquery in React
+// C. To write SQL in React
+
+// Correct answer
+// A. To write HTML in React
+
+// //---------------------------------------------------
+
+// Q5 Which command is used to create the new react app?
+
+// A. npx create-react-app my-app
+// B. npx create-react-app-g my-app
+// C. npx create-new-react-app my-app
+// D. None of these
+
+// Correct answer
+// A. npx create-react-app my-app
+
+// //---------------------------------------------------------
+
+// Q6 What is Babel? 
+
+// A. Compiler
+// B. Interpreter
+// C. Both A & B
+// D. None of these
+
+// Correct answer
+// A. Compiler
+
+// //------------------------------------------------------------
+
+// Q7 React is mainly used for building ___.
+
+// A. Database
+// B. Connectivity
+// C. User interface
+// D. Design Platform
+
+// Correct answer
+// C. User interface
+
+// //----------------------------------------------------------
+
+// Q8 What do you mean by ES6?
+
+// A. Javascript 6
+// B. Extended Javascript 6
+// C. ECMAScript 6
+// D. None of these
+
+// Correct answer
+// C. ECMAScript 6
+
+// //----------------------------------------------------------------------
+
+// Q9 What is the virtual DOM in React? 
+
+// A. A JavaScript library for building user interfaces
+// B. A lightweight JavaScript object that represents the actual DOM
+// C. A method for updating the view in MVC architecture
+// D. A tool for handling events and state in web applications
+
+// Correct answer
+// B. A lightweight JavaScript object that represents the actual DOM
+
+// //--------------------------------------------------------------------
+
+// Q10 JSX stands for?"
+
+// A. Javscript Extension
+// B. Javascript
+// C. Javascript XML
+// D. None of these
+
+// Correct answer
+// C. Javascript XML
+
+// //-----------------------------------------------------------------------------
+
+// Q11 Create a react form to accept Name, Email, Phone number, and Password as a signup form.
+// You can use CSS to beautify it or you skip it as well
+
+// import React from 'react'
+
+// const App = () => {
+
+//      return (
+//           <div>
+//                <h1>signUP</h1>
+//                Enter youe name: <input type="text" /><br />
+//                Enter youe email: <input type="text" /><br />
+//                Enter youe password: <input type="text" /><br />
+//                Enter youe password: <input type="text" />
+//           </div>
+//      )
+// }
+// export default App
+
+// //------------------------------------------------------------------
+
+// Q12 Write a react program to explain JSX in the simplest possible way.
+
+// import React from 'react';
+
+// function App() {
+
+//      return (
+//           <div>
+//                <h1>Hello, JSX!</h1>
+//                <p>This is a simple example to demonstrate JSX in React.</p>
+//           </div>
+//      )
+// }
+// export default App;
+
+// //-------------------------------------------------------------------
 
 //____________________________________________________________________________________________________________________
  
@@ -205,7 +569,7 @@
 //             }
 //     console.log(result)
 
-//-------------------------------------------------------------------
+// //-------------------------------------------------------------------
 
 //____________________________________________________________________________________________________________________
  
@@ -407,7 +771,7 @@
 // With the throw statement, we can create custom errors. With this statement, you can throw exceptions. An exception can be a string, a number, a boolean or an object. In this case, our exception is the string 'Hello world!'.
 // With the catch statement, we can specify what to do if an exception is thrown in the try block. An exception is thrown: the string 'Hello world!'. e is now equal to that string, which we log. This results in 'Oh an error: Hello world!'.
 
-//---------------------------------------------------------------------
+// //---------------------------------------------------------------------
 
 // Q11 Write a Program to print the shown pattern
 //  out put
@@ -439,7 +803,7 @@
 // } 
 // console.log(star );
 
-//------------------------------------------------------------
+// //------------------------------------------------------------
 
 // Q12 Write a Program to print the shown pattern
 // out put 
@@ -470,7 +834,7 @@
 //  // const height = 5; // Adjust the height as needed
 // // console.log(createNumberPattern(height));
 
-//----------------------------------------------------------------
+// //----------------------------------------------------------------
  
 //____________________________________________________________________________________________________________________
  
@@ -729,7 +1093,7 @@
 // }
 // console.log(string);
 
-//-----------------------------------------------------------
+// //-----------------------------------------------------------
 
 //____________________________________________________________________________________________________________________
  
@@ -988,7 +1352,7 @@
 
 // console.log(star);
 
-//-----------------------------------------------------
+// //-----------------------------------------------------
 
 //____________________________________________________________________________________________________________________
  
@@ -1326,7 +1690,7 @@
 //     console.log("The sign is = - ")
 // }
 
-//------------------------------------------------------------
+// //------------------------------------------------------------
 
 //____________________________________________________________________________________________________________________
   
@@ -1565,7 +1929,7 @@
 // a[b] = 123;
 // a[c] = 456;
 
-//----------------------------------------
+// //----------------------------------------
 
 //__________________________________________________________________________________________________________________________
 
@@ -1603,29 +1967,7 @@
 // // 
 
 // // ============================
-
  
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // // Q1.  reverse string without useing methode
 
 // // let str = "Abraa-Ka-Daabraa"
